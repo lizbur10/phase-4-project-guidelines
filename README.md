@@ -18,21 +18,30 @@ planning your app: deciding on your models and relationships, planning how the
 information will be laid out on the page, etc. You should work through all the
 planning steps before you start doing any coding.
 
-## Requirements
+## Minimum Project Requirements
 
 For this project, you must:
 
 - Use a Rails API backend with a React frontend.
-- Have **at least** three models on the backend, that include:
-  - at least one one-to-many relationship
-  - at least one many-to-many relationship
-  - full CRUD actions for at least one resource
-- Have at least three different client-side routes using React Router. Be sure
+- Have **at least** two models with a one-to-many relationship on the backend,
+  including:
+  - a one-to-many relationship between the two models, and
+  - full CRUD actions for at least one resource.
+- Have at least two different client-side routes using React Router. Be sure
    to include a nav bar or other UI element that allows users to navigate
    between routes.
-- Implement authentication/authorization, including password protection. A user
-  should be able to log in to the site with a secure password and stay logged in
-  via user ID in the session hash.
+- Implement authentication/authorization. At a minimum, a user should be able to
+  log into the site and stay logged in via user ID in the session hash.
+
+### Expand Your Project (Optional)
+
+If you have the time, continue to build out your project in one or more (or
+all!) of the following ways:
+
+- Implement three models on the backend, and include both a one-to-one
+  relationship and a many-to-many relationship.
+- Add additional client-side routes using React Router.
+- Add password protection to your app.
 
 ## Project Setup
 
@@ -169,7 +178,7 @@ working features without waste.
 
 - Add feature by feature, not model by model or layer by layer.
 - Test each feature, add styles, and create seed data as you go (not all at once
-  at the end)
+  at the end).
 
 Also, remember to prioritize your MVP features. It can be tempting to try and
 build everything at once, but that is a sure-fire way to end up with many broken
